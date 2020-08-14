@@ -4,8 +4,8 @@ small_hash = {}
 
 def key_for_min_value(name_hash)
   
-  low_num = Math.floor(rand() * 11)
-  lowest_num Math.floor(rand() * -1)
+  low_num = rand(1) * 11)
+  lowest_num rand(1) * -1)
   
   name_hash.each do |k, v|
  
