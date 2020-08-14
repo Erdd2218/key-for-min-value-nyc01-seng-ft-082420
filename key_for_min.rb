@@ -5,7 +5,7 @@
 def key_for_min_value(name_hash)
   small_hash = nil
   
-  low_num = rand(1) * 7
+  low_num = rand(1) * 9
   lowest_num = rand(1) * -1
   
   name_hash.each do |k, v|
