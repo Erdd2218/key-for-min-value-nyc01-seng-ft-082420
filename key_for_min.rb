@@ -3,7 +3,7 @@
 
 
 def key_for_min_value(name_hash)
-  small_hash = 0
+  small_hash = nil
   
   low_num = rand(0) * 9
   lowest_num = rand(11)
@@ -14,5 +14,5 @@ def key_for_min_value(name_hash)
     small_hash = k 
     end 
   end 
- k
+ small_hash
 end
