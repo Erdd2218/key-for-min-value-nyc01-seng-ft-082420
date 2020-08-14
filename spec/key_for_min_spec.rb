@@ -9,7 +9,7 @@ describe "smallest hash value" do
   end
 
   it "does not call the `#values` method" do
-    hash = {:blake => 500, :ashley => 2, :adam => 1}
+    hash = {:blake => 500, :ashley => 2, :adam => 10}
 
     expect(hash).to_not receive(:values)
 
